@@ -11,6 +11,15 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+//
+// ------------------------------------------------------------------------
+// NOTICE: This file has been modified by Mobius Robotics!
+// Date: 2025-05-08
+// Reason: modified to work with VCC-GND YD-RP2040 board and transmit data via serial.
+//
+// Copyright 2025 Mobius Robotics for the modifications.
+// Original parts remain licensed under Apache License 2.0.
+// ------------------------------------------------------------------------
 
 #include <Adafruit_NeoPixel.h>
 
