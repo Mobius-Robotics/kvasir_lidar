@@ -1,3 +1,7 @@
+# Created by https://www.toptal.com/developers/gitignore/api/ros2,vim,windows,linux,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=ros2,vim,windows,linux,c++
+
+### C++ ###
 # Prerequisites
 *.d
 
@@ -30,3 +34,96 @@
 *.exe
 *.out
 *.app
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### ROS2 ###
+install/
+log/
+build/
+
+# Ignore generated docs
+*.dox
+*.wikidoc
+
+# eclipse stuff
+.project
+.cproject
+
+# qcreator stuff
+CMakeLists.txt.user
+
+srv/_*.py
+*.pcd
+*.pyc
+qtcreator-*
+*.user
+
+
+# Emacs
+.#*
+
+# Colcon custom files
+COLCON_IGNORE
+AMENT_IGNORE
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/ros2,vim,windows,linux,c++
